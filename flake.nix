@@ -128,7 +128,7 @@
 
           docs-html = docs.manual.html;
           docs-json = docs.options.json;
-          docs-manpages = docs.manPages;
+          #docs-manpages = docs.manPages;
         } // testPackages // integrationTestPackages);
 
       defaultPackage = forAllSystems (system: self.packages.${system}.default);
